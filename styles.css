@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.paint-window {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background-color: black;
+    padding: 1px;
+}
+
+.pixel-container {
+    flex: 1;
+    display: flex;
+    gap: 1px;
+}
+
+.pixel {
+    flex: 1;
+    background-color: white;
+}
